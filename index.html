@@ -53,17 +53,17 @@
 
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Builds.loader.js";
-      var lfsUrl = "https://media.githubusercontent.com/media/MilitantNoob/2dFighting/main/Build";
       var config = {
         arguments: [],
-        dataUrl: lfsUrl + "/Builds.data",
+        dataUrl: "https://media.githubusercontent.com/media/MilitantNoob/2dFighting/main/Build/Builds.data",
         frameworkUrl: buildUrl + "/Builds.framework.js",
-        codeUrl: lfsUrl + "/Builds.wasm",
+        codeUrl: buildUrl + "/Builds.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "2dFighting",
         productVersion: "1.0",
         showBanner: unityShowBanner,
+        matchWebGLToCanvasSize: false,
         // errorHandler: function(err, url, line) {
         //    alert("error " + err + " occurred at line " + line);
         //    // Return 'true' if you handled this error and don't want Unity

@@ -1,11 +1,15 @@
 {
   "headers": [
     {
-      "source": "/Build/(.*)",
+      "source": "/Build/Builds.wasm",
       "headers": [
         {
-          "key": "Cache-Control",
-          "value": "public, max-age=31536000, immutable"
+          "key": "Content-Encoding",
+          "value": "gzip"
+        },
+        {
+          "key": "Content-Type",
+          "value": "application/wasm"
         }
       ]
     }
