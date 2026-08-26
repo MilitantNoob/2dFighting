@@ -53,11 +53,12 @@
 
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/Builds.loader.js";
+      var lfsUrl = "https://media.githubusercontent.com/media/MilitantNoob/2dFighting/main/Build";
       var config = {
         arguments: [],
-        dataUrl: buildUrl + "/Builds.data",
+        dataUrl: lfsUrl + "/Builds.data",
         frameworkUrl: buildUrl + "/Builds.framework.js",
-        codeUrl: buildUrl + "/Builds.wasm",
+        codeUrl: lfsUrl + "/Builds.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "2dFighting",

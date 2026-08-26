@@ -1,7 +1,0 @@
-{
-  "name": "2d-fighting",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "git lfs pull"
-  }
-}
